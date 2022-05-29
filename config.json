@@ -1,0 +1,11 @@
+{
+    "services": {
+        "blog": {"port": 10001}
+    },
+    "db": {
+        "host": "cluster0.0gbsm.mongodb.net",
+        "username": "Lukas",
+        "password": "Lukas123",
+        "dbname": "g16"
+    }
+}

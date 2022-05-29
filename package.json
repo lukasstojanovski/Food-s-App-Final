@@ -1,0 +1,22 @@
+{
+  "name": "foods-app-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./services/blog/index.js & node ./services/proxy/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-http-proxy": "^1.6.3",
+    "express-jwt": "^7.7.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.3.4",
+    "node-input-validator": "^4.5.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
