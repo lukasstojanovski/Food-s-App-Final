@@ -1,7 +1,7 @@
 const config = require("../../pkg/config")
 require('../../pkg/db')
 
-const express = require('express');
+const express = require('express')
 const post = require("./handlers/post")
 
 const api = express()

@@ -1,6 +1,10 @@
 {
     "services": {
-        "blog": {"port": 10001}
+        "blog": {"port": 3001},
+        "proxy": {"port": 3000}
+    },
+    "security": {
+        "jwt_key": "secret"
     },
     "db": {
         "host": "cluster0.0gbsm.mongodb.net",
