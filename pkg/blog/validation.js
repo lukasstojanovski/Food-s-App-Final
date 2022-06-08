@@ -3,7 +3,11 @@ const {Validator} = require('node-input-validator');
 const Post = {
     title: "required|string",
     photo: "required|string",
-    content: "required|string"
+    content: "required|string",
+    type: "required|string",
+    time: "required|string",
+    people: "required|string",
+    bestServed: "required|string"
 };
 
 const PostPartial = {

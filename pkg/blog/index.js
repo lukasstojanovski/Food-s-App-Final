@@ -7,7 +7,11 @@ const Posts = mongoose.model(
         user_id: String,
         title: String,
         photo: String,
-        content: String
+        content: String,
+        bestServed: String,
+        type: String,
+        time: Number,
+        people: Number
     },
     "posts"
 )
